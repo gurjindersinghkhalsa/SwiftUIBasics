@@ -25,8 +25,10 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 300, height: 300)
-                    .cornerRadius(150)
+                    .cornerRadius(150) // make circular image
                     .shadow(color: .black, radius: 10, x: 0, y: 0)
+                    .overlay(RoundedRectangle(cornerRadius: 150).stroke(Color.blue, lineWidth: 5))
+//                    .border(.green,width: 5)
                 Spacer(minLength: 30)
                 Image("waterfall")
                     .resizable()
