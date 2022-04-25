@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188491682816BCB800A8B0DC /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188491672816BCB700A8B0DC /* SignUpViewModel.swift */; };
 		189A95C92811BFA700F262DF /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A95C82811BFA700F262DF /* SwiftUIBasicsApp.swift */; };
 		189A95CB2811BFA700F262DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A95CA2811BFA700F262DF /* ContentView.swift */; };
 		189A95CD2811BFA900F262DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A95CC2811BFA900F262DF /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188491672816BCB700A8B0DC /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		189A95C52811BFA700F262DF /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A95C82811BFA700F262DF /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		189A95CA2811BFA700F262DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				189A95D12811BFA900F262DF /* Persistence.swift */,
 				189A95D32811BFA900F262DF /* SwiftUIBasics.xcdatamodeld */,
 				189A95CE2811BFA900F262DF /* Preview Content */,
+				188491672816BCB700A8B0DC /* SignUpViewModel.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				189A95D22811BFA900F262DF /* Persistence.swift in Sources */,
 				189A95CB2811BFA700F262DF /* ContentView.swift in Sources */,
+				188491682816BCB800A8B0DC /* SignUpViewModel.swift in Sources */,
 				189A95D52811BFA900F262DF /* SwiftUIBasics.xcdatamodeld in Sources */,
 				189A95C92811BFA700F262DF /* SwiftUIBasicsApp.swift in Sources */,
 			);
